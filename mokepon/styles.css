@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #25316D;
+}
+
+#Seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size:22px ;
+}
+
+.titulo {
+    color:cornflowerblue;
+    font-size: 70px;
+}
+
+.subtitulo {
+    color:black;
+}
+
+label {
+    text-align: center;
+    width: 150px ;
+    height:30px;
+    padding:8px;
+}
+
+input {
+    width: 100px ;
+    height:20px;
+    padding:2px;
+}
+
+button {
+    display:block;
+    margin-top: 10px;
+    background-color: #c1d6c4;
+    width:200px ;
+    height:50px;
+    border-radius: 10px;
+}
+
+#boton-mascota {
+    background-color:#ABD9FF;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.tarjetas {
+    display:flex;
+    gap:10px;
+}
+
+.tarjeta-de-mokepon {
+    width: 160px;
+    height: 100px;
+    background: #ABD9FF;
+    padding: 10px;
+    box-sizing: border-box;
+    margin:10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.tarjeta-de-mokepon img{
+    width: 80px;
+}
+
+
+
+input {
+    display:none;
+}
